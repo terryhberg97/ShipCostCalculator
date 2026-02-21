@@ -27,5 +27,5 @@ public class ShipCostCalculator {
         System.out.println("The total price is: $" + finalPrice);
         in.close();
 
-}
+    }
 }
