@@ -14,10 +14,13 @@ public class ShipCostCalculator {
         System.out.println("Enter the price of the item: ");
         itemPrice = in.nextDouble();
 
-        if (itemPrice >= 100) {
+        if (itemPrice >= 100)
+        {
             shipCost = 0;
             finalPrice = itemPrice;
-        } else {
+        }
+        else
+        {
             shipCost = shipTax * itemPrice;
             finalPrice = shipCost + itemPrice;
         }
